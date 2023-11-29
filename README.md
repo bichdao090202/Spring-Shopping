@@ -5,7 +5,7 @@
   ![ERD](/img/Home.png)
 - Nhấn "Buy Now" để thêm sản phẩm vào giỏ hàng
 - Nhấn "Cart" để vào trang giỏ hàng, có các sản phẩm đã mua và tổng tiền
-  ![ERD](/img/cart.png)
+  ![ERD](/img/Cart.png)
 - Nhấn "Pay" để vào trang chọn customer. Nhập email và nhấn "Search" để tìm customer theo email
   ![ERD](/img/chooseCustomer.png)
 Nếu tìm thấy email thì hiện trang thông tin của customer
