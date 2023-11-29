@@ -17,7 +17,7 @@
 - Nếu email chưa tồn tại thì Sign up thành công. Customer được thêm vào db
   ![ERD](/img/formCustomer3.png)
   ![ERD](/img/signUpSuccess.png)
-- Nếu email tồn tại thì thông báo và hiển thị thông tin customer
+- Nếu email tồn tại thì hiện ra thông báo và hiển thị thông tin customer:
   ![ERD](/img/formCustomer2.png)
   ![ERD](/img/emailExist.png)
 - Nhấn "Payment" để thanh toán. Đơn hàng được thêm vào db. Xóa giỏ hàng, hiện trang thanh toán thành công
