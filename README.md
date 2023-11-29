@@ -1,4 +1,4 @@
-# Các chức năng
+# Các chức năng [CHƯA XONG]
 
 **1.Mua hàng**
 - Vào http://localhost:8080/home
