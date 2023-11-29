@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Found</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h3 th:text="${notice}"></h3>
+            <p th:text="'Name: ' + ${customer.name}"></p>
+            <p th:text="'Email: ' + ${customer.email}"></p>
+            <p th:text="'Phone: ' + ${customer.phone}"></p>
+            <p th:text="'Address: ' + ${customer.address}"></p>
+        </div>
+
+        <div class="card-body">
+            <a th:href="@{/pay}"><button type="button" class="btn btn-primary btn-lg">Payment</button></a>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
